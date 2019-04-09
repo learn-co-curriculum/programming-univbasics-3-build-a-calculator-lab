@@ -3,6 +3,8 @@
 ## Learning Goals
 
 - Use Ruby math operations to build a calculator
+- Define instance method
+- Use the Ruby `Math` class to call a method provided by Ruby
 
 ## Introduction
 
@@ -28,9 +30,29 @@ of the following methods:
 - `square_root` -- Build the method `square_root` that finds the square root of
   `num` and returns the result
 
-Submit the lesson once all tests are passing.
+## Use Methods Provided by Ruby
+
+If a few places we've asked specific instances of data to run _methods_
+(`.class` or `.to_s`) have come up in the Programming as Conversation series.
+We call those _instance methods_. We're asking _a_ given number, say `314` for
+its `.class` (`314.class #=> Integer`).
+
+But sometimes Ruby provides standard helpful functions as _class_ methods. A
+class method is like a utility method that's contained in a special name-space.
+Let's say you needed to do some trigonometry. Ruby has you covered! You can use
+`Math.sin()` to find the sine of an angle. Ruby also provides `Math.sqrt` as a
+_class method_ so that you can use Ruby's understanding of squares to help out.
+
+The `square_root` method this lab requires you to write should use `Math.sqrt`.
+
+This is scratching the surface of "Object Oriented Programming." Helpful
+functions are available to _instances_ and _classes_ to help do work. There's a
+_lot_ to say about this, but for the time being, we can use some _class
+methods_ to help do some advanced mathematics.
 
 ## Conclusion
+
+Submit the lesson once all tests are passing.
 
 Ruby gives us many operators that can be used to perform calculations. This is
 the tip of the iceberg--we can do so much more than simple arithmetic, however,
