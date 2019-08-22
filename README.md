@@ -51,11 +51,11 @@ functions are available to _instances_ and _classes_ to help do work. There's a
 _lot_ to say about this, but for the time being, we can use some _class
 methods_ to help do some advanced mathematics.
 
+Once all tests are passing, submit the lesson.
+
 ## Conclusion
 
-Submit the lesson once all tests are passing.
-
 Ruby gives us many operators that can be used to perform calculations. This is
-the tip of the iceberg--we can do so much more than simple arithmetic, however,
+the tip of the iceberg—we can do so much more than simple arithmetic; however,
 these operations are the most common that a developer will encounter. Grasping
 the basics will get you very far!
