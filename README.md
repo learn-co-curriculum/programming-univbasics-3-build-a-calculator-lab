@@ -20,13 +20,13 @@ Fork and clone this repo and open `lib/math.rb`. You'll find a bunch of empty
 methods that take numbers as arguments. Build the appropriate behavior for each
 of the following methods:
 
-- `addition` - Build the method `addition` that adds `num1` to `num2` and returns the result of this calculation
-- `subtraction` - Build the method `subtraction` that subtracts `num1` from
-  `num2` and returns the result of this calculation
+- `addition` - Build the method `addition` that adds `num2` to `num1` and returns the result of this calculation
+- `subtraction` - Build the method `subtraction` that subtracts `num2` from
+  `num1` and returns the result of this calculation
 - `multiplication` - Build the method `multiplication` that multiplies `num1`
-  from `num2` and returns the result of this calculation
-- `division` - Build the method `division` that divides `num1` into `num2` and returns the result of this calculation
-- `modulo` - Build the method `modulo` that divides `num1` into `num2` and gives
+  by `num2` and returns the result of this calculation
+- `division` - Build the method `division` that divides `num2` into `num1` and returns the result of this calculation
+- `modulo` - Build the method `modulo` that divides `num2` into `num1` and gives
   us the _remainder_ of this calculation
 - `square_root` -- Build the method `square_root` that finds the square root of
   `num` and returns the result
