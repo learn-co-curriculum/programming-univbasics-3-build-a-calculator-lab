@@ -46,7 +46,7 @@ Let's say you needed to do some trigonometry. Ruby has you covered! You can use
 `Math.sin()` to find the sine of an angle. Ruby also provides `Math.sqrt()` as a
 _class method_ so that you can use Ruby's understanding of squares to help out.
 
-So, `Math.sin(81)` returns `9`. You can "wrap" `Math.sin` in the implementation
+So, `Math.sqrt(81)` returns `9`. You can "wrap" `Math.sqrt` in the implementation
 of your `square_root` method. Wrapping clunkily-named "standard" capabilities
 of a programming language is a surprisingly large part of a programmer's career.
 
